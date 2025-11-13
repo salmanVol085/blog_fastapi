@@ -1,0 +1,6 @@
+/venv/include/*
+/venv/Lib/site-packages/*
+/venv/lib/*
+/venv/Scripts/*
+/venv/pyvenv.cfg
+/venv/*
