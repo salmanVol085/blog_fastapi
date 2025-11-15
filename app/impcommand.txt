@@ -1,0 +1,14 @@
+# Create folder
+mkdir fastapi-project
+cd fastapi-project
+
+# Create & activate venv
+python -m venv venv
+venv\Scripts\activate        # Windows
+# source venv/bin/activate   # Linux/Mac
+
+# Install packages
+pip install fastapi uvicorn sqlalchemy mysql-connector-python python-jose passlib[argon2] python-multipart
+
+# Run server
+uvicorn app.main:app --reload
